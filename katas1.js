@@ -4,7 +4,9 @@ function oneThroughTwenty() {
    result.push(i);
  }
  return result;
+ 
 }
+console.log(oneTroughTwenty())
 
 
 function evensToTwenty() {
@@ -18,7 +20,7 @@ function evensToTwenty() {
   }
   return result;
 }
-
+console.log(evensToTwenty())
 
 
 function oddsToTwenty() {
@@ -33,7 +35,7 @@ function oddsToTwenty() {
 }
  return result;
 }
-
+console.log(oddsToTwenty())
 
 
 function multiplesOfFive() {
@@ -47,6 +49,7 @@ function multiplesOfFive() {
   return result;
 
 }
+console.log(multiplesOfFive())
 
 
 
@@ -60,7 +63,7 @@ for (let i = 1; i < 11; i++){
 
 return result;    
 }
-
+console.log(squareNumbers())
 
 
 function countingBackwards() {
@@ -70,7 +73,7 @@ function countingBackwards() {
     }
     return result;
 }
-
+console.log(countingBackwards())
 
 
 function evenNumbersBackwards() {
@@ -82,6 +85,7 @@ function evenNumbersBackwards() {
 }
         return result;
 }
+console.log(evenNumbersBackwards())
 
 
 function oddNumbersBackwards() {
@@ -92,7 +96,7 @@ function oddNumbersBackwards() {
       }
     }
     return result;
-}
+}console.log(oddNumbersBackwards());
 
 
 
@@ -105,7 +109,7 @@ function multiplesOfFiveBackwards(){
     }
     return result;
 }
-
+console.log(multiplesOfFiveBackwards())
 
 
 function squareNumbersBackwards() {
@@ -115,5 +119,5 @@ function squareNumbersBackwards() {
     }
     return result;
 }
-
+console.log(squareNumbersBackwards())
 
